@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <!-- TOP NAV -->
+  <div class="top-nav" id="home">
+    <div class="container">
+      <div class="row justify-content-between custom-nav">
+        <div class="col-auto social social-none">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="col-auto social-icons">
+          <img src="static/img/logo1.jpg" alt="">
+        </div>
+        <div class="col-auto address">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Calle 39 #239 x 54 Col. Bacalar.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg sticky-top bottom-nav">
+    <div class="container">
+      <div class="d-logo">
+        <img src="static/img/logo2.jpg" alt="">
+      </div>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Habitaciones y servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Turismo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Contacto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="contact.html">Contáctanos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Cotizaciones</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">EN</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">FR</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="contact">
+            <i class="fas fa-phone-volume"></i>
+            <span>(+52) 985-85-631-68</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var show = document.querySelector(".bottom-nav");
+      show.classList.toggle("show", window.scrollY > 150)
+    })
+  </script>
+
+  <main>
+
+    <!-- HOME --> 
+    <section class="home" id="home">
+      <div class="container">
+        <h1>Quinta Marciala</h1>
+        <p>HOTEL &amp; BOUTIQUE</p>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-space"></div>
+
+      <div class="container">
+        <div class="heading">
+          <h5>EXPLORE</h5>
+          <h2>¡Bienvenidos al Hotel Quinta Marciala!
+          </h2>
+        </div>
+        <div class="content flex top-c">
+          <div class="left">
+            <h3>Visitanos y conoce nuestra historia
+            </h3>
+            <p>Hotel Quinta Marciala es una casa del Siglo XIX, propiedad del Sr. Agustín Loría y Familia; que durante sus años dorados fue el lugar ideal para el descanso, producción de alimentos y de referencia para los viajeros que visitaban Valladolid. Cuenta con piscina al aire libre y jardín. Cuenta con cocina compartida y terraza. El alojamiento cuenta con mostrador de información turística y consigna de equipaje.</p>
+            <a href="#">  
+              <button class="flex1">     
+                <span>Conoce más</span>
+                <i class="fas fa-arrow-circle-right"></i>
+              </button>
+            </a>
+          </div>
+          <div class="right">
+            <img src="static/img/quinta.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-space"></div>
+
+    <section class="extra top">
+      <div class="container">
+      
+        <div class="row flex text-center">
+          <div class="col-lg-1"></div>
+          <div class="text py-5 col-12 col-md-7 col-lg-6 extra-custom">
+            <h5>Nuestro compromiso con el cuidado</h5>
+            <p class="text-muted">Acorde con los protocolos de higiene y seguridad por parte de las autoridades correspondientes, hemos tomado medidas para cuidar y proteger a huéspedes, colaboradores y comunidad en general.</p>
+          </div>
+          <div class="col-12 col-md-5 col-lg-4 mb-2">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="static/img/ba.png" alt="">
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-space"></div>
+
+    <!-- HABITACIONES -->
+    <section class="room" id="rooms">
+      <div class="section-space"></div>
+
+      <div class="container">
+        <div class="heading">
+          <h5>OUR ROOMS AND SERVICES</h5>
+          <h2>
+            Habitaciones & suites
+          </h2>
+        </div>
+        <div class="content flex top-c">
+          <div class="right">
+            <img src="static/img/suite.jpg" alt="">
+          </div>
+          <div class="section-space"></div>
+          <div class="left">
+            <h3>Disfruta del confort que te ofrecemos
+            </h3>
+            <p>Hotel Quinta Marciala es una casa del Siglo XIX, propiedad del Sr. Agustín Loría y Familia; que durante sus años dorados fue el lugar ideal para el descanso, producción de alimentos y de referencia para los viajeros que visitaban Valladolid. Cuenta con piscina al aire libre y jardín. Cuenta con cocina compartida y terraza. El alojamiento cuenta con mostrador de información turística y consigna de equipaje.</p>
+            <button class="flex1">
+              <span>Habitaciones</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms">
+      <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-md">
+                <div class="d-flex flex-column h-100 text-muted text-shadow-1">
+                  <div class="items">
+                    <div class="image">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="static/img/sencillam.jpg" alt="">
+                    </div>
+                    <div class="text">
+                      <h3>Deluxe</h3>
+                      <p>Una cama doble o Matrimonial. Cupo de la Habitación 2 Personas Máx.
+                      </p>
+                      <div class="button text-center">
+                        <button class="primary-btn">Ver detalles</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-md">
+                <div class="d-flex flex-column h-100 text-muted text-shadow-1">
+                  <div class="items">
+                    <div class="image">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="static/img/doblem.jpg" alt="">
+                    </div>
+                    <div class="text">
+                      <h3>Deluxe doble</h3>
+                      <p>Dos Camas Dobles o Matrimoniales. Cupo de la Habitación 4 Personas Máx.
+                      </p>
+                      <div class="button text-center">
+                        <button class="primary-btn">Ver detalles</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-sm">
+                <div class="d-flex flex-column h-100 text-muted text-shadow-1">
+                  <div class="items">
+                    <div class="image">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="static/img/suite.jpg" height="" alt="">
+                    </div>
+                    <div class="text">
+                      <h3>Suite</h3>
+                      <p>Una Cama King Size y un Sofá Cama. Cupo de la Habitación 3 Personas Máx.
+                      </p>
+                      <div class="button text-center">
+                        <button class="primary-btn">Ver detalles</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="section-space"></div>
+
+    <section class="wrapper2" id="services">
+      <div class="container">
+        <div class="heading mtop">
+          <h2>Nuestros servicios </h2>
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <div class="row row-cols-2 row-cols-sm-3 g-4 py-5">
+          <div class="box">
+            <i class="fas fa-parking"></i>
+            <h3>Parking gratis</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Hay parking gratis privado en el establecimiento</small></li>
+                <li><small>• Es necesario reservar</small></li>
+                <li><small>• Parking en un garaje</small></li>
+                <li><small>• Parking en la calle</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-swimming-pool"></i>
+            <h3>Piscina</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Piscina al aire libre (todo el año)</small></li>
+                <li><small>• Zona poco profunda</small></li>
+                <li><small>• Piscina pequeña</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-wifi"></i>
+            <h3>Zona wifi</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Hay conexión a internet Wi-Fi disponible en todo el establecimiento</small></li>
+                <li><small>• GRATIS</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-taxi"></i>
+            <h3>Transporte</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Servicio de traslado al aeropuerto(de pago)</small></li>
+                <li><small>• Servicio de recogida en el aeropuerto (de pago)</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-concierge-bell"></i>
+            <h3>Servicios de recepción</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Guardaequipaje</small></li>
+                <li><small>• Registro de entrada y salida exprés</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-bicycle"></i>
+            <h3>Renta de bicicletas</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Alquiler de bicicletas (de pago)</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Comida y bebida</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Botella de agua</small></li>
+                <li><small>• ¡Buen café!</small></li>
+                <li><small>• Cocina compartida</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-trash"></i>
+            <h3>Servicio de limpieza</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• Servicio diario de camarera de pisos</small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-paw"></i>
+            <h3>No mascotas</h3>
+            <div class="text-start info-services">
+              <ul class="px-0">
+                <li><small>• No se admiten</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container top">
+        <div class="heading">
+          <h5>PHOTOS</h5>
+          <h2>Galería</h2>
+          <br>
+        </div>
+      </div>
+      <div class="content mtop">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-5.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-7.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="static/img/gallerym-6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $('.owl-carousel1').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2,
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+    <div class="section-space"></div>
+    <div class="section-space"></div>
+
+    <section class="customer top" id="testimonials">
+      <div class="container w-75">
+        <div class="heading">
+          <h5>TESTIMONIALS </h5>
+          <h2>Qué opinan nuestros clientes</h2>
+        </div>
+        <div class="owl-carousel owl-carousel1 owl-theme mtop">
+          <div class="item">
+            <div class="rate">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Excellent Swimming</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="admin flex">
+              <div class="img">
+                <img src="static/img/tripblack1.jpg" alt="">
+              </div>
+              <div class="text">
+                <h3>Ayman Jensi</h3>
+                <span>Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="rate">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Excellent Swimming</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="admin flex">
+              <div class="img">
+                <img src="image/c2.jpg" alt="">
+              </div>
+              <div class="text">
+                <h3>Ayman Jensi</h3>
+                <span>Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="rate">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Excellent Swimming</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis.</p>
+            <div class="admin flex">
+              <div class="img">
+                <img src="image/c3.jpg" alt="">
+              </div>
+            </div>
+            <div class="text">
+              <h3>Ayman Jensi</h3>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 50,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    </script>
+
+    <div class="section-space"></div>
+    <div class="section-space"></div>
+
+    <!-- RATING -->
+    <section class="wrapper top">
+      <div class="container text-center">
+        <div class="text">
+          <h2>Reconocimientos</h2>
+          <br>
+
+          <div id="hc-ratingRatingHotel"> 
+            <div id="hc-ratingRatingHotel__inner"> 
+              <img id="hc-ratingRatingHotel__ribbon" src="https://media.datahc.com/ratinghotel/stellar2/ribbon.png"/> 
+              <span id="hc-ratingRatingHotel__year">2019</span>
+              <span id="hc-ratingRatingHotel__award">RECONOCIMIENTO A LA EXCELENCIA</span> 
+              <div id="hc-ratingRatingHotel__hotelink">
+                <a id="hc-ratingRatingHotel__hotelname" target="_blank" href="javascript:void(0)">Quinta Marciala Hotel-Boutique</a> 
+              </div>
+              <a id="hc-ratingRatingHotel__hclink" target="_blank" href="https://www.detectahotel.com/">DetectaHotel</a> 
+            </div>
+            <div id="hc-ratingRatingHotel__rating"> 
+              <span id="hc-ratingRatingHotel__number">9.1999999999999993</span>
+              <span id="hc-ratingRatingHotel__pipe"></span>
+              <span id="hc-ratingRatingHotel__ratedby">Valorado por los clientes</span> 
+            </div>
+
+              <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js">
+              </script> <script>(function(){var rand = Math.floor((Math.random() * 99999999) + 1); function loadjscssfile(a,b){if("js"==b){var
+              c=document.createElement("script");c.setAttribute("type","text/javascript"),c.setAttribute("src",a)}else if("css"==b){var
+              c=document.createElement("link");c.setAttribute("rel","stylesheet"),c.setAttribute("type","text/css"),c.setAttribute("href",a)}"undefined"!=typeof
+              c&&document.getElementsByTagName("head")[0].appendChild(c)}
+              loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/spa/styles.css?v' + rand, 'css');
+              loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/spa/script.js?v' + rand, 'js'); })();</script>
+          </div>
+
+          <div class="">
+            <img src="static/img/tripblack1.jpg"  width="100" height="30" alt="..." class="img-thumbnail">    <div id="hc-data__hotellink" style="display: none;">Quinta_Marciala_Hotel_Boutique</div>
+            <a href='https://www.kayak.com.mx/Valladolid-Hoteles-Hotel-Quinta-Marciala.2531926.ksp' target='_blank'><img height="100px" src='https://content.r9cdn.net/seo-res/badges/v4/DARK_MEDIUM_TRAVEL_AWARDS.png'/></a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <div class="section-space"></div>
+
+    <section class="map top">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.2549443454272!2d-88.21144097338045!3d20.691162722672175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f510b28a8f82fd7%3A0x3ae565c7bd1c434f!2sCancun%20-%20Valladolid%2054%2C%20Bacalar%2C%2097784%20Valladolid%2C%20Yuc.!5e0!3m2!1ses-419!2smx!4v1688705185844!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container top">
+      <div class="content row">
+        <div class="box col-12 col-md-4">
+          <div class="logo">
+            <img src="static/img/logo1.jpg" alt="">
+          </div>
+          <p>En cuentra más sobre nosotros en nuestras redes sociales. ¡Visitanos!</p>
+          <div class="social flex">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="section-space"></div>
+        </div>
+
+        <div class="box col-12 col-md-4">
+      
+          <h2>Quick Links</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Home</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="about.html">About</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="services.html">Rooms and Services</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Gallary</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Tourism</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="section-space"></div>
+        </div>
+        <div class="box col-12 col-md-4">
+          <div class="container">
+            
+            <h2>Services</h2>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Calle 39 #239 x 54 Col. Bacalar. Valladolid, Yucatan
+                  C.P. 97780</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>(+52) 985-85-631-68</p>
+                <p>(+52) 985-100-41-13</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>hotelquintamarciala@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>
