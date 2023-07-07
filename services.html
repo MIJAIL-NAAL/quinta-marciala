@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/extra.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <!-- TOP NAV -->
+  <div class="top-nav" id="home">
+    <div class="container">
+      <div class="row justify-content-between custom-nav">
+        <div class="col-auto social">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="col-auto social-icons">
+          <img src="static/img/logo1.jpg" alt="">
+        </div>
+        <div class="col-auto address">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Calle 39 #239 x 54 Col. Bacalar.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg sticky-top bottom-nav">
+    <div class="container">
+      <div class="d-logo">
+        <img src="static/img/logo2.jpg" alt="">
+      </div>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Habitaciones y servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#room">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Turismo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Contacto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="contact.html">Contáctanos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Cotizaciones</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">EN</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">FR</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="contact">
+            <i class="fas fa-phone-volume"></i>
+            <span>(+52) 985-85-631-68</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      var show = document.querySelector(".bottom-nav");
+      show.classList.toggle("show", window.scrollY > 150)
+    })
+  </script>
+
+  <main>
+    <section class="home home-services h-50" id="home">
+      <div class="container h-50">
+        <h1>Quinta Marciala</h1>
+        <p>HOTEL &amp; BOUTIQUE</p>
+    </section>
+
+    <div class="container">
+      <div class="section-space"></div>
+      <div class="heading">
+        <span class="ding"></span>
+        <h2>
+          Habitaciones y suites
+        </h2>
+      </div>
+    </div>
+
+    <div class="section-space"></div>
+
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-2">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="section-space"></div>
+
+            <div class="">
+              <h4 class="fst-italic">Navegación rápida</h4>
+              <ol class="list-unstyled mb-">
+                <li><a href="#sencilla">• Sencilla Deluxe</a></li>
+                <li><a href="#doble">• Doble Deluxe</a></li>
+                <li><a href="#suite">• Suite Deluxe</a></li>
+                <li><a href="#servicios">• Todos los servicios</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-10">
+          <!-- SENCILLA -->
+          <section id="sencilla">
+            <div class="section-space"></div>
+            <div class="container">
+              <div class="heading">
+                <h3>Habitación Sencilla Deluxe</h3>
+              </div>
+            </div>
+
+            <div class="row align-items-md-stretch">
+              <div class="col-md-12">
+                <div class="h-100 p-1 border rounded-3" >
+                  <div class="row featurette">
+                    <div class="col-md-5 order-md-1 mb-2">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="static/img/sencillam.jpg" alt="">
+                    </div>
+                    <div class="col-md-7 order-md-2">
+                      <div class="bg-light" style="min-height: 300px;">
+                        <nav>
+                          <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link custom-services active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</button>
+                            <button class="nav-link custom-services" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Comodidades</button>
+                            <button class="nav-link custom-services" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Fotos</button>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show bg-light active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>
+                              <strong>Habitación con 1 cama doble o matrimonial</strong>
+                            </p>
+                            <p>
+                              <strong>Ocupación máxima: 2 personas</strong>
+                            </p>
+                            <p>
+                              <strong>Tamaño de la habitación: 12 m²</strong>
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="">
+
+                              <div class="d-flex">
+                                <i class="fas fa-wifi col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Internet inalámbrico (WiFi) - cargo
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-snowflake col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Aire Condicionado
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-fan col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Ventiladores de Techo
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-tv col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Televisión por cable
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-shower col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Baño privado con agua fría y caliente
+                                </div>
+                              </div>
+                            </div>                          
+                          </div>
+                          <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <p><strong>3.- This is some placeholder content the Contact tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="section-space"></div>
+
+          <!-- DOBLE -->
+          <section id="doble">
+            <div class="section-space"></div>
+            <div class="container">
+              <div class="heading">
+                <h3>Habitación Doble Deluxe</h3>
+              </div>
+            </div>
+            <div class="row align-items-md-stretch">
+              <div class="col-md-12">
+                <div class="h-100 p-1 border rounded-3">
+                  <div class="row featurette">
+                    <div class="col-md-5 order-md-1 mb-2">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="static/img/doblem.jpg" alt="">
+                    </div>
+                    <div class="col-md-7 order-md-2">
+                      <div class="bg-light" style="min-height: 300px;">
+                        <nav>
+                          <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link custom-services active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</button>
+                            <button class="nav-link custom-services" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Comodidades</button>
+                            <button class="nav-link custom-services" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Fotos</button>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>
+                              <strong>Habitación con 2 camas dobles o matrimoniales</strong>
+                            </p>
+                            <p>
+                              <strong>Ocupación máxima: 4 personas</strong>
+                            </p>
+                            <p>
+                              <strong>Tamaño de la habitación: 25 m²</strong>
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                            <div>
+                              <div class="d-flex">
+                                <i class="fas fa-wifi col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Internet inalámbrico (WiFi)
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-snowflake col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Aire Condicionado
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-fan col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Ventiladores de Techo
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-tv col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Televisión por cable
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <p><strong>3.- This is some placeholder content the Contact tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="section-space"></div>
+
+          <section id="suite">
+            <div class="section-space"></div>
+            <div class="container">
+              <div class="heading">
+                <h3>Habitación Suite Deluxe</h3>
+              </div>
+            </div>
+            <div class="row align-items-md-stretch">
+              <div class="col-md-12">
+                <div class="h-100 p-1 border rounded-3">
+                  <div class="row featurette">
+
+                    <div class="col-md-5 order-md-1 mb-2">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="static/img/suite.jpg" alt="">
+                    </div>
+                    <div class="col-md-7 order-md-2">
+                      <div class="bg-light" style="min-height: 300px;">
+                        <nav>
+                          <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link custom-services active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</button>
+                            <button class="nav-link custom-services" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Comodidades</button>
+                            <button class="nav-link custom-services" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Fotos</button>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show bg-light active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>
+                              <strong>Habitación con 1 cama king size y 1 sofá-cama</strong>
+                            </p>
+                            <p>
+                              <strong>Ocupación máxima: 3 personas</strong>
+                            </p>
+                            <p>
+                              <strong>Tamaño de la habitación: 28 m²</strong>
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="">
+
+                              <div class="d-flex">
+                                <i class="fas fa-wifi col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Internet inalámbrico (WiFi)
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-snowflake col-1 py-2"></i>
+                                <div class="ps-2 col-10">
+                                  Aire Condicionado
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-fan col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Ventiladores de Techo
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-tv col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Televisión por cable
+                                </div>
+                              </div>
+
+                              <div class="d-flex">
+                                <i class="fas fa-shower col-1 py-2"></i>
+                                <div class="ps-2 col-11">
+                                  Baño privado con una pequeña tina de baño (No jacuzzi)
+                                </div>
+                              </div>
+                            </div>                          
+                          </div>
+                          <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <p><strong>3.- This is some placeholder content the Contact tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="wrapper2" id="servicios">
+            <div class="section-space"></div>
+            <div class="container">
+              <div class="heading mtop">
+                <h2>Todos nuestros servicios </h2>
+              </div>
+            </div>
+            <div class="container px-4 py-5" id="icon-grid">
+              <div class="row row-cols-2 row-cols-sm-3 g-4 py-5">
+                <div class="box">
+                  <i class="fas fa-parking"></i>
+                  <h3>Parking gratis</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Hay parking gratis privado en el establecimiento</small></li>
+                      <li><small>• Es necesario reservar</small></li>
+                      <li><small>• Parking en un garaje</small></li>
+                      <li><small>• Parking en la calle</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-swimming-pool"></i>
+                  <h3>Piscina</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Piscina al aire libre (todo el año)</small></li>
+                      <li><small>• Zona poco profunda</small></li>
+                      <li><small>• Piscina pequeña</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-wifi"></i>
+                  <h3>Zona wifi</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Hay conexión a internet Wi-Fi disponible en todo el establecimiento</small></li>
+                      <li><small>• GRATIS</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-taxi"></i>
+                  <h3>Transporte</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Servicio de traslado al aeropuerto(de pago)</small></li>
+                      <li><small>• Servicio de recogida en el aeropuerto (de pago)</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-concierge-bell"></i>
+                  <h3>Servicios de recepción</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Guardaequipaje</small></li>
+                      <li><small>• Registro de entrada y salida exprés</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-bicycle"></i>
+                  <h3>Renta de bicicletas</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Alquiler de bicicletas (de pago)</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-utensils"></i>
+                  <h3>Comida y bebida</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Botella de agua</small></li>
+                      <li><small>• ¡Buen café!</small></li>
+                      <li><small>• Cocina compartida</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-trash"></i>
+                  <h3>Servicio de limpieza</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• Servicio diario de camarera de pisos</small></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box">
+                  <i class="fas fa-paw"></i>
+                  <h3>No mascotas</h3>
+                  <div class="text-start info-services">
+                    <ul class="px-0">
+                      <li><small>• No se admiten</small></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <script>
+            $('.owl-carousel').owlCarousel({
+              loop: true,
+              margin: 50,
+              nav: false,
+              dots: false,
+              autoplay: true,
+              autoplayTimeout: 3000,
+              autoplayHoverPause: true,
+              navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+              responsive: {
+                0: {
+                  items: 1
+                },
+                768: {
+                  items: 2
+                },
+                1000: {
+                  items: 2
+                }
+              }
+            })
+          </script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+          <script>
+            $('.owl-carousel1').owlCarousel({
+              loop: true,
+              margin: 0,
+              nav: true,
+              dots: false,
+              autoplay: true,
+              autoplayTimeout: 2000,
+              autoplayHoverPause: true,
+              navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+              responsive: {
+                0: {
+                  items: 1
+                },
+                768: {
+                  items: 4,
+                },
+                1000: {
+                  items: 4
+                }
+              }
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="section-space"></div>
+  </main>
+
+  <footer>
+    <div class="container top">  
+      <div class="content row">
+        <div class="box col-12 col-md-4">
+          <div class="logo">
+            <img src="static/img/logo1.jpg" alt="">
+          </div>
+          <p>En cuentra más sobre nosotros en nuestras redes sociales. ¡Visitanos!</p>
+          <div class="social flex">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="section-space"></div>
+        </div>
+        <div class="box col-12 col-md-4">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Home</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="about.html">About</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="services.html">Rooms and Services</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Gallary</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#home">Tourism</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="section-space"></div>
+        </div>
+        <div class="box col-12 col-md-4">
+          <div class="container">
+            <h2>Services</h2>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Calle 39 #239 x 54 Col. Bacalar. Valladolid, Yucatan
+                  C.P. 97780</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>(+52) 985-85-631-68</p>
+                <p>(+52) 985-100-41-13</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>hotelquintamarciala@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>
