@@ -191,7 +191,7 @@ button span {
   color: #fff;
   text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
   font-family: 'Rouge Script', cursive;
-  padding-top: 10%;
+  padding-top: 25%;
 }
 
 .home p {
@@ -603,6 +603,10 @@ button span {
   width: 100%;
 }
 
+.map .mail {
+  letter-spacing: 1px;
+}
+
 
 /* FOOTER */
 footer {
@@ -686,6 +690,10 @@ footer .social i:hover {
     font-size: .75rem;
   }
 
+  .home h1 {
+    /*padding-top: 40%;*/
+  }
+
   .about .right::after,
   .room .right::after {
     height: 75%;
@@ -708,7 +716,7 @@ footer .social i:hover {
   }
 
   .home h1 {
-    padding-top: 35%;
+    /*padding-top: 35%;*/
   }
 
   .bottom-nav .offcanvas-header,
@@ -743,7 +751,7 @@ footer .social i:hover {
   }
 
   .home h1 {
-    padding-top: 40%;
+    /*padding-top: 40%;*/
   }
 
   .extra .extra-custom {
@@ -788,7 +796,7 @@ footer .social i:hover {
   }
 
   .home h1 {
-    padding-top: 80%;
+    /*padding-top: 80%;*/
   }
 
   .top-nav .custom-nav {
