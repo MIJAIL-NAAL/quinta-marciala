@@ -30,21 +30,7 @@
 }
 
 
-@media screen and (max-width:780px) {
-    .home-about {
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/quinta.jpg") -200px 0px/cover no-repeat fixed;
-    }
-
-    .home-services {
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/suite.jpg") -200px 0px/cover no-repeat fixed;
-    }
-}
-
 @media screen and (max-width:480px) {
-    .home-services {
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/suite.jpg") -400px 0px/cover no-repeat fixed;
-    }
-
     .about .about-content {
         padding: 10px!important;
     }
