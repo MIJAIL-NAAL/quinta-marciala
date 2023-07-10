@@ -56,7 +56,8 @@ h3 {
   justify-content: space-between;
 }
 
-button {
+button,
+.btn-c {
   background: var(--primary);
   color: white;
   padding: 10px 20px;
@@ -66,23 +67,26 @@ button {
   font-size: .75rem;
 }
 
-button:hover {
+button:hover,
+.btn-c:hover {
   color: rgb(255, 240, 153);
   transition: ease-in-out 1s;
   box-shadow: 1px 1px 1px #a4a4a4;
 }
 
-button a {
+button a,
+.btn-c a{
   color: white;
-
 }
 
-button i {
+button i,
+.btn-c i {
   margin-left: 20px;
   font-size: 25px;
 }
 
-button span {
+button span,
+.btn-c span{
   margin-top: 2px;
 }
 
@@ -496,6 +500,7 @@ button span {
   position: relative;
 }
 
+/*
 .gallery .img::after {
   content: '';
   position: absolute;
@@ -507,12 +512,12 @@ button span {
   z-index: 2;
   opacity: 0;
   transition: 0.5s;
-}
+}*/
 
 .overlay {
   position: absolute;
   top: 40%;
-  left: 42%;
+  left: 40%;
   z-index: 3;
   font-size: .5rem;
   text-align: center;
@@ -530,9 +535,11 @@ button span {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
+  font-size: 2rem;
+  color: #fff;
 }
 
 .overlay h3 {
@@ -540,11 +547,12 @@ button span {
   font-weight: 500;
 }
 
+ /*
 .gallery .items:hover .overlay,
 .gallery .items:hover .img::after {
   opacity: 1;
   cursor: pointer;
-}
+}*/
 
 .gallery .owl-nav .owl-prev {
   left: 1%;
