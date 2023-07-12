@@ -211,6 +211,15 @@
                             <p>
                               <strong>Tamaño de la habitación: 12 m²</strong>
                             </p>
+                            <div class="my-3" id="modal">
+                              <div class="bd-example">
+                                <div class="text-center">
+                                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable">
+                                    Ver fotos
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <div class="">
@@ -331,6 +340,15 @@
                             <p>
                               <strong>Tamaño de la habitación: 25 m²</strong>
                             </p>
+                            <div class="my-3" id="modal">
+                              <div class="bd-example">
+                                <div class="text-center">
+                                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable">
+                                    Ver fotos
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
@@ -428,7 +446,7 @@
                           <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
                             <button class="nav-link custom-services active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</button>
                             <button class="nav-link custom-services" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Comodidades</button>
-                            <button class="nav-link custom-services" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Fotos</button>
+                            <button class="nav-link custom-services" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Políticas del Hotel</button>
                             <button class="nav-link custom-services" id="nav-politic-tab" data-bs-toggle="tab" data-bs-target="#nav-politic2" type="button" role="tab" aria-controls="nav-politic" aria-selected="false">Políticas del Reservación</button>
                           </div>
                         </nav>
@@ -443,6 +461,15 @@
                             <p>
                               <strong>Tamaño de la habitación: 28 m²</strong>
                             </p>
+                            <div class="my-3" id="modal">
+                              <div class="bd-example">
+                                <div class="text-center">
+                                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable">
+                                    Ver fotos
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <div class="">
@@ -628,57 +655,7 @@
             </div>
           </section>
 
-          <script>
-            $('.owl-carousel').owlCarousel({
-              loop: true,
-              margin: 50,
-              nav: false,
-              dots: false,
-              autoplay: true,
-              autoplayTimeout: 3000,
-              autoplayHoverPause: true,
-              navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                768: {
-                  items: 2
-                },
-                1000: {
-                  items: 2
-                }
-              }
-            })
-          </script>
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-          <script>
-            $('.owl-carousel1').owlCarousel({
-              loop: true,
-              margin: 0,
-              nav: true,
-              dots: false,
-              autoplay: true,
-              autoplayTimeout: 2000,
-              autoplayHoverPause: true,
-              navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                768: {
-                  items: 4,
-                },
-                1000: {
-                  items: 4
-                }
-              }
-            })
-          </script>
+                    
         </div>
       </div>
     </div>
@@ -754,6 +731,65 @@
       </div>
     </div>
   </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- modals -->
+  <div class="modal fade" id="exampleModalCenteredScrollable" tabindex="-1" aria-labelledby="exampleModalCenteredScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class="gallery">
+              <div class="content mtop" style="max-width: 800px;">
+                <div class="owl-carousel owl-carousel1 owl-theme">
+                  <div class="items">
+                    <div class="img">
+                      <img src="static/img/sencillam.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="items">
+                    <div class="img">
+                      <img src="static/img/doblem.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="items">
+                    <div class="img">
+                      <img src="static/img/suite.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <script>
+              $('.owl-carousel1').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                dots: false,
+
+                navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  768: {
+                    items: 1,
+                  },
+                  1000: {
+                    items: 1
+                  }
+                }
+              })
+            </script>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="static/js/bootstrap.bundle.min.js"></script>
