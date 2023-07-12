@@ -644,12 +644,17 @@ footer .content h2 {
 
 footer li {
   margin-bottom: 15px;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
 }
 
 footer li i {
   font-size: 13px;
   margin-right: 10px;
+}
+
+footer li a,
+footer p {
+  color: #ccc;
 }
 
 footer .content h3 {
@@ -659,14 +664,15 @@ footer .content h3 {
 }
 
 footer .content .icon i {
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 20px;
 }
 
 footer .content {
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 footer .social i {
@@ -840,6 +846,10 @@ footer .social i:hover {
 
   .wrapper .text h3 {
     font-size: 25px;
+  }
+
+  footer h3 {
+    text-align: left;
   }
 }
 

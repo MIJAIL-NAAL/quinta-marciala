@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/extra.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <style>
+    .bg-gallery {
+        /*background-color: #333;*/
+        margin: 1em;
+    }
+
+    .bg-gallery img {
+        max-width: 100%;
+        margin-bottom: 0.5em;
+        display: block;
+        outline: 2px solid #fff;
+        outline-offset: -5px;
+        /*object-fit: cover;*/
+    }
+
+    .gallery {
+        /*display: flex;
+        flex-wrap: wrap*/
+        columns: 5 320px;
+        column-gap: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- TOP NAV -->
+  <div class="top-nav" id="home">
+    <div class="container">
+      <div class="row justify-content-between custom-nav">
+        <div class="col-auto social social-none">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="col-auto social-icons">
+          <img src="static/img/logo1.jpg" alt="">
+        </div>
+        <div class="col-auto address">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Calle 39 #239 x 54 Col. Bacalar.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg sticky-top bottom-nav">
+    <div class="container">
+      <div class="d-logo">
+        <img src="static/img/logo2.jpg" alt="">
+      </div>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Habitaciones y servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tourism.html">Turismo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Contacto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="contact.html">Contáctanos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Cotizaciones</a></li>
+              </ul>
+            </li>
+            -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">EN</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">FR</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="contact">
+            <i class="fas fa-phone-volume"></i>
+            <span>(+52) 985-85-631-68</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      var show = document.querySelector(".bottom-nav");
+      show.classList.toggle("show", window.scrollY > 150)
+    })
+  </script>
+
+  <main>
+    <section class="home home-tourism" id="home">
+      <div class="container">
+        <h1>Quinta Marciala</h1>
+        <p>HOTEL &amp; BOUTIQUE</p>
+    </section>
+
+    <section class="bg-gallery">
+      <div class="section-space"></div>
+      <div class="container">
+        <div class="heading">
+          <h5>EXPLORE</h5>
+          <h2>Galería
+          </h2>
+        </div>
+        <div class="section-space"></div>
+      </div>
+
+      <div class="gallery">
+        <img src="static/img/centro.jpg" alt="">
+        <img src="static/img/doblem.jpg" alt="">
+        <img src="static/img/escaleras.jpg" alt="">
+        <img src="static/img/flamingoes.jpg" alt="">
+        <img src="static/img/gallerym-1.jpg" alt="">
+        <img src="static/img/gallerym-2.jpg" alt="">
+        <img src="static/img/gallerym-3.jpg" alt="">
+        <img src="static/img/gallerym-4.jpg" alt="">
+        <img src="static/img/gallerym-5.jpg" alt="">
+        <img src="static/img/gallerym-6.jpg" alt="">
+        <img src="static/img/gallerym-7.jpg" alt="">
+        <img src="static/img/home.jpg" alt="">
+      </div>
+    </section>
+
+
+  </main>
+
+  <div class="section-space"></div>
+
+  <footer>
+    <div class="container top">
+      <div class="content row">
+        <div class="box col-12 col-md-4">
+          <div class="logo">
+            <img src="static/img/logo1.jpg" alt="">
+          </div>
+          <p>En cuentra más sobre nosotros en nuestras redes sociales. ¡Visitanos!</p>
+          <div class="social flex">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="section-space"></div>
+        </div>
+        <div class="box col-12 col-md-4">
+          <div class="container"></div>
+            <h2>Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Rooms and Services</a></li>
+              <li><a href="#home">Gallery</a></li>
+              <li><a href="tourism.html">Tourism</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          <div class="section-space"></div>
+        </div>
+        <div class="box col-12 col-md-4">
+          <div class="">
+            <h2>Contáctanos</h2>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Calle 39 #239 x 54 Col. Bacalar. Valladolid, Yucatan
+                  C.P. 97780</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>(+52) 985-85-631-68</p>
+                <p>(+52) 985-100-41-13</p>
+              </div>
+            </div>
+            <div class="icon flex">
+              <div class="i">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>hotelquintamarciala@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="legal">
+        <p class="container">Hotel Boutique Quinta Marciala | 2023</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>
