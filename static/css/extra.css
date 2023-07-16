@@ -29,6 +29,34 @@
     background: #eee;
 }
 
+.contact-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/piso.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-extra img{
+	max-width: 100%;
+}
+
+.gallery-extra {
+	padding: 80px 0;
+}
+
+.gallery-extra img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
 
 @media screen and (max-width:480px) {
     .about .about-content {

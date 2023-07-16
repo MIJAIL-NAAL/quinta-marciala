@@ -56,7 +56,6 @@ h3 {
   justify-content: space-between;
 }
 
-button,
 .btn-c {
   background: var(--primary);
   color: white;
@@ -67,25 +66,21 @@ button,
   font-size: .75rem;
 }
 
-button:hover,
 .btn-c:hover {
   color: rgb(255, 240, 153);
   transition: ease-in-out 1s;
   box-shadow: 1px 1px 1px #a4a4a4;
 }
 
-button a,
 .btn-c a{
   color: white;
 }
 
-button i,
 .btn-c i {
   margin-left: 20px;
   font-size: 25px;
 }
 
-button span,
 .btn-c span{
   margin-top: 2px;
 }
